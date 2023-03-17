@@ -139,7 +139,7 @@ const CreatePin = ({ user }) => {
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            placeholder="Add your title here"
+            placeholder="please Add your title here"
             className="outline-none text-2xl sm:text-3xl font-bold border-b-2 border-gray-200 p-2"
           />
           {user && (
