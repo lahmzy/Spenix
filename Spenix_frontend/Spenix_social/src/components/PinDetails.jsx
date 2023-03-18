@@ -123,6 +123,7 @@ const PinDetails = ({ user }) => {
         <div className="max-h-370 overflow-y-auto">
           {pinDetail?.comments?.map((comment, index) => (
             <div className="flex gap-2 mt-5 items-center">
+            {console.log(pinDetail)}
               <img
                 src={comment.postedBy.image}
                 alt="user-profile"
